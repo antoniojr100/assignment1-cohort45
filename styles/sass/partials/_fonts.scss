@@ -1,0 +1,22 @@
+@use "./variables" as *;
+
+// Emblema One
+@font-face{
+    font-family: 'Emblema One', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+    font-weight: normal;
+}
+
+// Barlow
+@font-face{
+    font-family: 'Barlow', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+    font-weight: normal;
+}
+
+// Catamaran
+@font-face{
+    font-family: 'Catamaran', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap');
+    font-weight: semibold;
+}
