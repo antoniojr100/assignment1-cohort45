@@ -260,6 +260,21 @@ a {
   color: #042259;
 }
 
+.button {
+  margin-top: 2%;
+  padding: 20px;
+  color: white;
+  background-color: #042259;
+}
+.button :visited {
+  color: #042259;
+}
+
+.form-button {
+  background-color: #F5C8CF;
+  color: #042259;
+}
+
 @font-face {
   font-family: "Emblema One", cursive;
   src: url("https://fonts.googleapis.com/css2?family=Emblema+One&display=swap");
@@ -281,6 +296,7 @@ a {
   line-height: 87.3px;
   font-weight: normal;
   color: #1D81CC;
+  text-transform: uppercase;
 }
 
 .section-heading {
@@ -288,6 +304,7 @@ a {
   font-weight: normal;
   font-size: 2.1rem;
   color: #1D81CC;
+  text-transform: uppercase;
 }
 
 .sub-title {
@@ -304,6 +321,7 @@ a {
   font-weight: normal;
   font-size: 1.56rem;
   color: #1D81CC;
+  text-transform: uppercase;
 }
 
 .footer-heading {
@@ -311,6 +329,7 @@ a {
   font-weight: normal;
   font-size: 1.25rem;
   color: #1D81CC;
+  text-transform: uppercase;
 }
 
 .body-paragraph {
@@ -327,6 +346,7 @@ a {
   font-weight: normal;
   font-size: 1rem;
   line-height: 29px;
+  text-transform: uppercase;
 }
 
 .nav-link {
@@ -367,8 +387,134 @@ header .header-container {
 }
 header .header-container h1 {
   margin-bottom: 1%;
-  text-transform: uppercase;
 }
 header .header-container p {
   margin-top: 0;
+}
+
+.gallery {
+  background-color: #F0F5FF;
+  border: 1px solid #F0F5FF;
+}
+.gallery h2 {
+  text-align: center;
+  padding: 50px 0;
+}
+.gallery .gallery-flex {
+  padding-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.gallery .gallery-flex .gallery-image-container {
+  padding: 0 10px;
+  width: calc(33.3333333333% - 40px);
+}
+.gallery .gallery-flex .gallery-image-container img {
+  width: 100%;
+}
+
+.coffee {
+  background-color: #F0F5FF;
+  padding-bottom: 5%;
+}
+.coffee .coffee-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.coffee .coffee-container .coffee-image-container {
+  width: 20%;
+}
+.coffee .coffee-container .coffee-image-container img {
+  width: 100%;
+}
+.coffee .coffee-container .coffee-text-container {
+  width: 80%;
+  padding-left: 50px;
+}
+.coffee .coffee-container .coffee-text-container h2 {
+  margin: 0 auto;
+}
+
+.icons {
+  background-color: #FCDDE2;
+}
+.icons .icon-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 75px auto;
+}
+.icons .icon-flex .icon-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.icons .icon-flex .icon-text-container i {
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 2.5rem;
+}
+
+.extra-info {
+  background-color: #F0F5FF;
+  padding: 3% 0;
+}
+.extra-info .extra-info-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.extra-info .extra-info-flex .stay-updated {
+  width: 60%;
+}
+.extra-info .extra-info-flex .stay-updated .email-subscribe input {
+  width: 70%;
+  padding-right: 0;
+  margin-right: 0;
+  border: 1px solid #F5C8CF;
+}
+.extra-info .extra-info-flex .stay-updated .email-subscribe button {
+  padding-left: 0;
+  margin-left: 0;
+  border: 2px solid #F5C8CF;
+}
+.extra-info .extra-info-flex .contact {
+  width: 20%;
+}
+.extra-info .extra-info-flex .bottom-nav {
+  width: 20%;
+  text-align: right;
+}
+
+footer {
+  background-color: #042259;
+  margin: 0 auto;
+  border: 1px solid #042259;
+}
+footer .footer-text {
+  color: #F0F5FF;
+  text-align: center;
 }

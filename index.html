@@ -38,23 +38,29 @@
         <section class="gallery">
             <div class="wrapper">
                 <h2 class="section-heading">News Appliances</h2>
-                <ul>
-                    <li><img src="./assets/gallery-photo-1.jpg" alt="New Panasonic Microwave"></li>
-                    <li><img src="./assets/gallery-photo-2.jpg" alt="New Magimix Blender"></li>
-                    <li><img src="./assets/gallery-photo-3.jpg" alt="New DeLonghi Toaster"></li>
+                <ul class="gallery-flex">
+                    <li class="gallery-image-container">
+                        <img src="./assets/gallery-photo-1.jpg" alt="New Panasonic Microwave">
+                    </li>
+                    <li class="gallery-image-container">
+                        <img src="./assets/gallery-photo-2.jpg" alt="New Magimix Blender">
+                    </li>
+                    <li class="gallery-image-container">
+                        <img src="./assets/gallery-photo-3.jpg" alt="New DeLonghi Toaster">
+                    </li>
                 </ul>
             </div>
         </section>
 
         <section class="coffee">
-            <div class="wrapper">
+            <div class="wrapper coffee-container">
                 <div class="coffee-image-container">
                     <img src="./assets/square-photo.jpg" alt="">
                 </div>
                 <div class="coffee-text-container">
                     <h2 class="section-heading">Best Appliances for Coffee</h2>
                     <p class="body-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo minima similique eos repellendus at hic alias porro blanditiis sapiente laudantium cum aliquid corporis deleniti est iure error, maxime aperiam laborum? Optio perferendis accusamus nesciunt, possimus ab asperiores ullam dignissimos modi, ipsum ea magnam quasi ipsam iure quibusdam nemo sit odio? Itaque deserunt modi enim excepturi tempore minima exercitationem fugit cupiditate cumque labore nihil ad debitis voluptas, ipsa molestiae praesentium velit nam omnis officia. Voluptatem beatae a, soluta quibusdam odio quos aut laborum quisquam quia fugiat!</p>
-                    <a href="#" class="button blue-button button-text">Read More</a>
+                    <a href="#" class="button button-text">Read More</a>
                 </div>
             </div>
         </section>
@@ -86,16 +92,16 @@
 
         <section class="icons">
             <div class="wrapper">
-                <ul>
-                    <li>
+                <ul class="icon-flex">
+                    <li class="icon-text-container">
                         <i class="fa-solid fa-car icon car-icon"></i>
                         <h3 class="body-link">Shop</h3>
                     </li>
-                    <li>
+                    <li class="icon-text-container">
                         <i class="fa-solid fa-briefcase icon case-icon"></i>
                         <h3 class="body-link">Jobs</h3>
                     </li>
-                    <li>
+                    <li class="icon-text-container">
                         <i class="fa-solid fa-calendar-check icon calendar-icon"></i>
                         <h3 class="body-link">Events</h3>
                     </li>
@@ -104,18 +110,20 @@
         </section>
 
         <section class="extra-info">
-            <div class="wrapper">
+            <div class="wrapper extra-info-flex">
                 <div class="stay-updated">
                     <p class="footer-heading">Stay Updated</p>
-                    <p class="body-paragraph">Subscribe to our newsletter to stay updated</p>
-                    <div>
+                    <p class="body-paragraph">Subscribe to our newsletter to stay updated.</p>
+                    <div class="email-subscribe">
                         <input type="text" placeholder="email address" class="body-paragraph">
-                        <button class="button pink-button button-text">Subcribe</button>
+                        <button class="form-button button-text">Subcribe</button>
                     </div>
                 </div>
                 <div class="contact">
                     <p class="footer-heading">Contact</p>
-                    <p class="body-paragraph">info@email.com 123-456-7890 123 some road, Toronto, ON A5A 5A5, Canada</p>
+                    <p class="body-paragraph">info@email.com 123-456-7890</p>
+                    <p class="body-paragraph">123 some road, Toronto, ON</p>
+                    <p class="body-paragraph">A5A 5A5, Canada</p>
                 </div>
                 <div class="bottom-nav">
                     <p class="footer-heading">Home</p>
@@ -126,10 +134,10 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="wrapper">
-            <p class="body-paragraph">Copyright © 2022 Juno College</p>
-        </div>
-    </footer>
 </body>
+<footer>
+    <div class="wrapper">
+        <p class="body-paragraph footer-text">Copyright © 2022 Juno College</p>
+    </div>
+</footer>
 </html>

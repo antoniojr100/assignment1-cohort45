@@ -1,0 +1,108 @@
+@use "./variables" as *;
+
+// GALLERY
+.gallery{
+    // base
+    background-color: $pale-grey;
+    border: 1px solid $pale-grey;
+    h2{
+        text-align: center;
+        padding: 50px 0;
+    }
+    .gallery-flex{
+        padding-bottom: 5%;
+        display: flex;
+        justify-content: space-between;
+        .gallery-image-container{
+            padding: 0 10px;
+            width: calc((100% / 3) - 40px);
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+// COFFEE
+.coffee{
+    background-color: $pale-grey;
+    padding-bottom: 5%;
+    .coffee-container{
+        display: flex;
+        flex-direction: row;
+        .coffee-image-container{
+            width: 20%;
+            img{
+                width: 100%;
+            }
+        }
+        .coffee-text-container{
+            width: 80%;
+            padding-left: 50px;
+            h2{
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+.icons{
+    background-color: $light-pink;
+    .icon-flex{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 75px auto;
+        .icon-text-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            i{
+                align-self: center;
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+// EXTRA INFO
+.extra-info{
+    background-color: $pale-grey;
+    padding: 3% 0;
+    .extra-info-flex{
+        display: flex;
+        flex-direction: row;
+        .stay-updated{
+            width: 60%;
+            .email-subscribe{
+                input{
+                    width: 70%;
+                    padding-right: 0;
+                    margin-right: 0;
+                    border: 1px solid $pale-rose;
+                }
+                button{
+                    padding-left: 0;
+                    margin-left: 0;
+                    border: 2px solid $pale-rose;
+                }
+            }
+        }
+        .contact{
+            width: 20%;
+        }
+        .bottom-nav{
+            width: 20%;
+            text-align: right;
+        }
+    }
+}
+
+footer{
+    background-color: $marine;
+    margin: 0 auto;
+    border: 1px solid $marine;
+    .footer-text{
+        color: $pale-grey;
+        text-align: center;
+    }
+}

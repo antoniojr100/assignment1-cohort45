@@ -24,3 +24,18 @@ a{
 .icon{
     color: #042259;
 }
+
+.button{
+    margin-top: 2%;
+    padding: 20px;
+    color: white;
+    background-color: $marine;
+    :visited{
+        color: $marine;
+    }
+}
+
+.form-button{
+    background-color: $pale-rose;
+    color: $marine;
+}
