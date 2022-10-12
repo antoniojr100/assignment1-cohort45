@@ -518,3 +518,80 @@ footer .footer-text {
   color: #F0F5FF;
   text-align: center;
 }
+
+@media (max-width: 765px) {
+  header {
+    background-image: url(../assets/header-group-appliances.png);
+    background-size: default;
+    height: 100vh;
+  }
+  header nav {
+    visibility: hidden;
+  }
+  header .menu-bars-container {
+    visibility: visible;
+  }
+  header .menu-bars-container .menu-bars {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    font-size: 3rem;
+  }
+  .gallery .gallery-flex {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .gallery .gallery-flex .gallery-image-container {
+    padding: 0 5px;
+    width: calc(33.3333333333% - 20px);
+  }
+  .gallery .gallery-flex .gallery-image-container img {
+    width: 100%;
+  }
+  .coffee .coffee-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .coffee .coffee-container .coffee-image-container {
+    width: 100%;
+  }
+  .coffee .coffee-container .coffee-text-container {
+    padding-top: 2%;
+    text-align: center;
+    width: 100%;
+    padding-left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .icon-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .extra-info .extra-info-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .extra-info .extra-info-flex .stay-updated {
+    text-align: center;
+    width: 100%;
+  }
+  .extra-info .extra-info-flex .contact,
+.extra-info .extra-info-flex .bottom-nav {
+    width: 45%;
+  }
+}
