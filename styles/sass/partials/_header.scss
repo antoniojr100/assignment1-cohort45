@@ -1,6 +1,38 @@
 @use "./variables" as *;
 
-nav ul{
-    
-    display: flex;
+header{
+    // base
+    height: 100vh;
+    // background-image
+    background-image: url(../assets/header-alt.png);
+    background-size: cover;
+    nav{
+        margin-bottom: 10%;
+        ul{
+            // base
+            margin-top: 0; 
+            padding-top: 2%;
+            text-transform: uppercase;
+            // flex
+            display: flex;
+            justify-content: flex-end;
+            li{
+                padding: 0 2% 0 2%;
+            }
+        }
+    }
+    .menu-bars-container{
+        visibility: hidden;
+    }
+    .header-container{
+        // size
+        width: 40%;
+        h1{
+            margin-bottom: 1%;
+            text-transform: uppercase;
+        }
+        p{
+            margin-top: 0;
+        }
+    }
 }

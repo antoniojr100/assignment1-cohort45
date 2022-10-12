@@ -20,3 +20,73 @@
     src: url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap');
     font-weight: semibold;
 }
+
+    // title
+    .title{
+        font-family: $primary-font;
+        font-size: 5.23rem;
+        line-height: 87.3px;
+        font-weight: normal;
+        color: $water-blue;
+    }
+
+    // section-heading
+    .section-heading{
+        font-family: $primary-font;
+        font-weight: normal;
+        font-size: 2.1rem;
+        color: $water-blue;
+    }
+    
+    // sub-title
+    .sub-title{
+        font-family: $secondary-font;
+        font-weight: normal;
+        font-size: 1.86rem;
+        line-height: 37.9px;
+        letter-spacing: 0.3px;
+        color: $marine;
+    }
+
+    // body-link
+    .body-link{
+        font-family: $primary-font;
+        font-weight: normal;
+        font-size: 1.56rem;
+        color: $water-blue;
+    }
+
+    // footer-heading
+    .footer-heading{
+        font-family: $primary-font;
+        font-weight: normal;
+        font-size: 1.25rem;
+        color: $water-blue;
+    }
+
+    // body-paragraph
+    .body-paragraph{
+        font-family: $secondary-font;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 29px;
+        letter-spacing: 0.2px;
+        color: $darker-grey;
+    }
+
+    // button-text
+    .button-text{
+        font-family: $primary-font;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 29px;
+    }
+
+    //nav-link
+    .nav-link{
+        font-family: $nav-font;
+        font-weight: semibold;
+        font-size: 0.9rem;
+        line-height: 29px;
+        color: $marine;
+    }

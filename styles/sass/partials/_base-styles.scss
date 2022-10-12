@@ -1,5 +1,9 @@
 @use "./variables" as *;
 
+html{
+    font-size: 125%;
+}
+
 body{
     background-color: $light-pink;
 }
@@ -13,6 +17,10 @@ a{
 }
 
 .wrapper{
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
+}
+
+.icon{
+    color: #042259;
 }

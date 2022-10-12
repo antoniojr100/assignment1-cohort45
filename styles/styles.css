@@ -239,6 +239,42 @@ html {
   font-size: 125%;
 }
 
+body {
+  background-color: #FCDDE2;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.icon {
+  color: #042259;
+}
+
+@font-face {
+  font-family: "Emblema One", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Emblema+One&display=swap");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Barlow", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Catamaran", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap");
+  font-weight: semibold;
+}
 .title {
   font-family: "Emblema One";
   font-size: 5.23rem;
@@ -301,40 +337,38 @@ html {
   color: #042259;
 }
 
-body {
-  background-color: #FCDDE2;
+header {
+  height: 100vh;
+  background-image: url(../assets/header-alt.png);
+  background-size: cover;
 }
-
-ul {
-  list-style-type: none;
+header nav {
+  margin-bottom: 10%;
 }
-
-a {
-  text-decoration: none;
-}
-
-.wrapper {
-  width: 85%;
-  margin: 0 auto;
-}
-
-@font-face {
-  font-family: "Emblema One", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Emblema+One&display=swap");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Barlow", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Catamaran", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap");
-  font-weight: semibold;
-}
-nav ul {
+header nav ul {
+  margin-top: 0;
+  padding-top: 2%;
+  text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+header nav ul li {
+  padding: 0 2% 0 2%;
+}
+header .menu-bars-container {
+  visibility: hidden;
+}
+header .header-container {
+  width: 40%;
+}
+header .header-container h1 {
+  margin-bottom: 1%;
+  text-transform: uppercase;
+}
+header .header-container p {
+  margin-top: 0;
 }
