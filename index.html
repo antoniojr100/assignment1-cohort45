@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Catamaran:wght@600&family=Emblema+One&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Catamaran:wght@600&family=Emblema+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/546ea88d21.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -22,8 +23,13 @@
                 </ul>
             </nav>
 
+            <!-- visibility: hidden -->
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
             <div class="header-container">
-                <h1 class="title">Bingus</h1>
+                <h1 class="title">Electric Select</h1>
                 <p class="sub-title">best home appliances</p>
             </div>
         </div>
@@ -82,13 +88,16 @@
             <div class="wrapper">
                 <ul>
                     <li>
+                        <i class="fa-solid fa-car" class="icon carIcon"></i>
                         <h3 class="body-link">Shop</h3>
                     </li>
                     <li>
+                        <i class="fa-solid fa-briefcase" class="icon caseIcon"></i>
                         <h3 class="body-link">Jobs</h3>
                     </li>
                     <li>
-                        <h3 class="body-link">Events</h3>
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3 class="body-link" class="icon calendarIcon">Events</h3>
                     </li>
                 </ul>
             </div>
